@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 
-body{
-	height: 100%; 
-	font-family: 'Noto Sans', sans-serif;
-  background-color: #ffffff; 
-}
+
 
 
 .contact_form{	
@@ -22,7 +18,7 @@ body{
 
 input{
 	background-color: #fbfbfb; 
-	width: 408px; 
+	width: min-content; 
 	height: 40px; 
 	border-radius: 5px;  
 	border-style: solid; 
@@ -36,7 +32,7 @@ input{
 
 textarea{
   background-color: #fbfbfb; 
-	width: 405px; 
+	width: min-content; 
 	height: 150px; 
 	border-radius: 5px;  
 	border-style: solid; 
@@ -66,7 +62,7 @@ button{
 	border-color: blue; 
 	border-style: solid; 
 	border-radius: 10px;	
-	width: 420px;   
+	width: min-content;   
   cursor: pointer;
 }
 
@@ -87,12 +83,6 @@ span{
 }
 
 
-h1{
-	font-size: 39px;  
-	text-align: letf; 
-	padding-bottom: 20px; 
-	color: #ffffff;
-}
 
 
 h3{
@@ -102,10 +92,7 @@ h3{
 }
 
 
-p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-}
+
 
 
 ::-webkit-input-placeholder {
